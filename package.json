@@ -6,6 +6,7 @@
   "scripts": {
     "start": "concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
     "demo": "npm start",
+    "build": "webpack --mode production",
     "build:demo": "webpack -p",
     "build:dist": "ng-packagr -p package.json",
     "build:clean": "del-cli dist",
