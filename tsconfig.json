@@ -20,10 +20,12 @@
     ]
   },
   "include": [
-    "index.ts",
     "src/**/*",
     "test/**/*",
     "demo/**/*"
+  ],
+  "files": [
+    "index.ts"
   ],
   "exclude": [
     "node_modules"
