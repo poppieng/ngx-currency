@@ -3,7 +3,7 @@
     "target": "ES5",
     "module": "commonjs",
     "moduleResolution": "node",
-    "sourceMap": false,
+    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
@@ -19,9 +19,6 @@
       "node_modules/@types"
     ]
   },
-  "files": [
-    "index.ts"
-  ],
   "include": [
     "src/**/*",
     "test/**/*",
